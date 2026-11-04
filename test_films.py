@@ -1,8 +1,8 @@
 import outils_films
-films = ["Dune", "Alien", "Interstellar", "Rocky", "Avatar", "Inception"]
+films = ["Dune", "Alien", "Interstellar", "Rocky", "Avatar", "Inception", "Saw"]
 
 def test_compter():
-    assert outils_films.compter(films) == 6
+    assert outils_films.compter(films) == 7
 
 
 def test_plus_long_titre():
