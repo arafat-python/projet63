@@ -10,7 +10,7 @@ def test_plus_long_titre():
 
 
 def test_titres_courts():
-    assert outils_films.titres_courts(films,6)
+    assert outils_films.titres_courts(films,6) == ['Dune', 'Alien', 'Rocky', 'Saw']
 
 def test_compter_liste_vide():
     assert outils_films.compter([]) == 0
